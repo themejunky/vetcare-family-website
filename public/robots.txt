@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vetcare-family.vercel.app/sitemap.xml
+
+# Block access to admin or private areas
+Disallow: /api/
+Disallow: /.next/
+Disallow: /node_modules/
